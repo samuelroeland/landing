@@ -1,0 +1,123 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  color:white;
+  background-position: center;
+  background-size: center;
+  padding:100px;
+  height:400px;
+
+}
+
+.banner .img{
+  height: 600px;
+}
+
+.container .p {
+  color:lightgrey;
+}
+
+.banner .container a {
+  color: white;
+  background-color: #1EDD88;
+  border:1px solid #1EDD88;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+.banner .container a:hover{
+  background-color: #0ac671;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container .white-cards{
+  display:flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+.container .white-card{
+  height: 300px;
+  width: 250px;
+
+  margin: 15px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.container .white-card img {
+  display:flex;
+  height:100px;
+  width:100%;
+  justify-content: center;
+
+}
+
+.container .white-cards h3 {
+  display:flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.white-card p {
+  color: grey;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.footer {
+  padding-top: 20px;
+  background-color:rgba(0, 0, 0, 0.842);
+  border: 1px solid black;
+}
+
+.symb-socials ul li{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0ac671;
+  display: inline-block;
+
+}
+
+.symb-socials ul {
+  display: flex;
+  justify-content: center;
+}
+
+.symb-socials ul li{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.footer a {
+  color: beige;
+  display:flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
